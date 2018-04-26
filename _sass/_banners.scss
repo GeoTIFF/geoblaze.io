@@ -1,12 +1,18 @@
 .banner {
-  background: url('/assets/img/bg.png');
-  background-attachment: fixed;
-  background-size: cover;
+  //background: url('/assets/img/bg1.png');
+  //background-attachment: fixed;
+  //background-size: cover;
+  bottom: 0;
   color: $color-white;
-  height: 30vh;
-  padding-bottom: 8rem;
-  padding-top: 8rem;
-  position: relative;
+  left: 0;
+  //height: 30vh;
+  height: 100%;
+  //padding-bottom: 8rem;
+  //padding-top: 8rem;
+  //position: relative;
+  position: absolute;
+  right: 0;
+  top: 0;
   text-align: center;
 
   &.medium {

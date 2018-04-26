@@ -1,0 +1,43 @@
+section {
+  padding-top: 4rem;
+
+  header {
+    margin: 0 auto;
+    text-align: center;
+
+    h2 {
+      font-size: 1.75em;
+      margin: 0 auto;
+      max-width: 17em;
+      text-transform: uppercase;
+
+      @media screen and (min-width: $small-screen) {
+        font-size: 2em;
+      }
+
+      @media screen and (min-width: $medium-screen) {
+        font-size: 3em;
+      }
+    }
+
+    p {
+      font-size: 1em;
+      margin-top: 2rem;
+
+      @media screen and (min-width: $medium-screen) {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+
+  &.light-on-dark {
+    color: lightgray;
+
+    hr {
+      color: white;
+      max-width: 40%;
+    }
+  }
+
+}

@@ -164,40 +164,6 @@
     }
 }
 
-//aka Our Mission section of homepage
-.about {
-  padding-top: 4rem;
-
-  header {
-    margin: 0 auto;
-    text-align: center;
-
-    h2 {
-      font-size: 1.75em;
-      margin: 0 auto;
-      max-width: 17em;
-      text-transform: uppercase;
-
-      @media screen and (min-width: $small-screen) {
-        font-size: 2em;
-      }
-
-      @media screen and (min-width: $medium-screen) {
-        font-size: 3em;
-      }
-    }
-
-    p {
-      font-size: 1em;
-      margin-top: 2rem;
-
-      @media screen and (min-width: $medium-screen) {
-        font-size: 1.5em;
-      }
-    }
-  }
-}
-
 .about-actions {
   margin-top: 2em;
   padding: 0;
@@ -527,71 +493,6 @@
 
 }
 */
-
-
-.press {
-  background-attachment: scroll;
-  background-image: url('./assets/img/american_flag_1920x1280_gradient.jpg');
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  // HACK: This is a hack to prevent ugliness on iOS
-  @media screen and (min-width: 768px) {
-    background-attachment: fixed;
-  }
-
-  h2 {
-    color: $color-white;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-}
-
-.press-container {
-  @include clearfix;
-  margin: 0 auto;
-  max-width: 43em;
-}
-
-.press-links {
-  margin-top: 2em;
-  text-align: center;
-
-  @media screen and (min-width: $medium-screen) {
-    margin-top: 0;
-  }
-
-  .press-logo {
-    max-height: 3em;
-
-    @media screen and (min-width: $small-screen) {
-      max-height: 4em;
-    }
-  }
-
-  li {
-    display: inline-block;
-    margin-bottom: 0.5em;
-    margin-left: 2rem;
-
-    &:first-of-type {
-      margin-left: 0;
-    }
-  }
-}
-
-.press-logo {
-  backface-visibility: visible;
-  transition: all 0.2s ease;
-  transform-style: preserve-3d;
-  transform: translate3d(0,0,0);
-  -webkit-perspective: 1000;
-
-  &:hover {
-    transform: translateY(-2px);
-  }
-}
 
 @keyframes bounce {
 	0%, 6%, 15%, 20%, 100% {

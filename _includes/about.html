@@ -1,12 +1,12 @@
-<section id="about" class="about indented">
+<section class="indented light-on-dark">
   <header>
     <h2>Our Mission</h2>
-    <p>{{ about.mission }}</p>
+    <p>{{ site.data.about.mission }}</p>
   </header>
   <br />
   <hr />
   <ul class="indented about-actions">
-    {% for link in about.links %}
+    {% for link in site.data.about.links %}
     <li class="about-action width-third">
       <a href="{{link}}">
         <img alt="About Icon" aria-hidden="true" [src]="item.image" />
