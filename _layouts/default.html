@@ -5,28 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">  
 </head>
 <body>
-    <!--<header>
-        HEADER HERE
-    </header>-->
-    <section class="banner">
-        <div class="banner-content">
-            <div class="banner-title">geoblaze.io</div>
-            <div class="banner-subtitle">Join the Community!</div>
-            <div class="banner-subsection">
-                <a href="https://docs.geoblaze.io">
-                  <button class="transparent">Docs</button>
-                </a>
-                <a href="https://beta.observablehq.com/search?query=geoblaze">
-                  <button class="transparent">Notebooks</button>
-                </a>
-                <a href="https://geotiff.slack.com/messages/CAD7YGF35/">
-                  <button class="transparent">Slack</button>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!--{% include about.html site=site %}-->
+    <!--<header>HEADER HERE</header>-->
+    {% include hero.html %}
+    {% include about.html site=site %}
 </body>
 </html>

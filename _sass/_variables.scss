@@ -7,7 +7,7 @@ $helvetica: (
 
 $header-font-family: 'TT Lakes', $helvetica;
 
-$brand-primary: #005289;
+$brand-primary: darkslategrey;
 
 $brand-blue: #0071bc;
 $brand-blue-dark: #004370;
@@ -200,12 +200,13 @@ $focus-outline: 2px dotted $color-gray-light !default;
 }
 
 
-$hr-color: $brand-teal;
 
 
 $color-white: #FFF;
-$color-primary: darkorange;
-$color-primary: darkred;
+$color-primary: #ef3c15;
+
+
+$hr-color: $color-primary;
 
 $color-gray-dark: #323a45;
 

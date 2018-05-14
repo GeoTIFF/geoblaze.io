@@ -1,4 +1,4 @@
-<section class="indented light-on-dark">
+<section id="about" class="indented dark-on-light">
   <header>
     <h2>Our Mission</h2>
     <p>{{ site.data.about.mission }}</p>
@@ -6,14 +6,14 @@
   <br />
   <hr />
   <ul class="indented about-actions">
-    {% for link in site.data.about.links %}
+    {% for item in site.data.about.links %}
     <li class="about-action width-third">
-      <a href="{{link}}">
-        <img alt="About Icon" aria-hidden="true" [src]="item.image" />
-        <h3>{{link.name}}</h3>
-        <p>{{link.description}}</p>
+      <a href="{{item.url}}">
+        <img alt="About Icon" aria-hidden="true" src="{{item.image}}" />
+        <h3>{{item.title}}</h3>
+        <p>{{item.description}}</p>
       </a>
     </li>
     {% endfor %}
-  </ul>
+  </ul>  
 </section>

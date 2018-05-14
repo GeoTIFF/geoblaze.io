@@ -535,3 +535,18 @@
     vertical-align: middle;
   }
 }
+
+#about {
+  color: darkslategray;
+  text-align: center;
+  
+  li {
+    list-style: none;
+    a {
+      color: darkslategray;
+      img {
+        max-width: 5rem;
+      }
+    }
+  }
+}

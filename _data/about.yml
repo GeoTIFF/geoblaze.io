@@ -1,11 +1,14 @@
 mission: Our mission is nothing less than revolutionizing GIS by leveraging the power of the browser to do work historically done on desktops.
 links:
-  - name: Docs
+  - title: Docs
     description: Learn how to use geoblaze
-    link: /docs
-  - name: Notebooks
-    description: Check out cool examples of how to use geoblaze
-    link: https://beta.observablehq.com/search?query=geoblaze
-  - name: Slack
+    url: https://docs.geoblaze.io
+    image: ./assets/img/book.svg
+  - title: Notebooks
+    description: Check out cool examples of how to use geoblaze on ObservableHQ.com
+    url: https://beta.observablehq.com/search?query=geoblaze
+    image: ./assets/img/logos/observablehq.svg
+  - title: Slack
     description: Chat with the devs and other users
-    link: https://geotiff.slack.com/messages/CAD7YGF35/
+    url: https://geotiff.slack.com/messages/CAD7YGF35/
+    image: ./assets/img/slack.svg
