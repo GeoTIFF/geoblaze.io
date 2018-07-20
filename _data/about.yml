@@ -1,5 +1,9 @@
 mission: Our mission is nothing less than revolutionizing GIS by leveraging the power of the browser to do work historically done on desktops.
 links:
+  - title: Source Code
+    description: View the code and contribute
+    url: https://github.com/GeoTIFF/geoblaze
+    image: ./assets/img/github.svg
   - title: Docs
     description: Learn how to use geoblaze
     url: https://docs.geoblaze.io
